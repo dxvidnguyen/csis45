@@ -1,0 +1,5 @@
+Square of telemetry data
+16
+25
+100
+1

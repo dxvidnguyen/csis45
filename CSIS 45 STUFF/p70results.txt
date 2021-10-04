@@ -1,0 +1,3 @@
+Number of values in data70.txt file: 16
+Sum of all values in data70.txt file: 4481.2178
+Average of all values in data70.txt file: 280.07611

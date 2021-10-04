@@ -1,0 +1,18 @@
+Midterm - Debug a program without Compiler 
+David Nguyen 
+
+Line 2 - needs a hashtag / pound symbol / # before include 
+Line 5 - function prototype needs a semicolon at the end 
+Line 7 - needs a second parenthesis for int main function
+Line 9 - variable maxValue needs a data type (int, float, double)
+Line 12 - for the cin/input, there needs to be two greater than symbols (>>) instead of the less than (<<)
+Line 13 - int N == 3 is wrong, only needs one equal sign (Correct: int N = 3)
+Line 13 - 2nd component / condition of for loop is incorrect. It is just a less than (<) when it should be less than equal to (<=) because it does not include the maxValue when checking for prime numbers 
+Line 15 - for the function call, the return type is not needed. Just “checkPrime(N)” without the “void” 
+Line 21 - Function definition needs the return type (void) instead of a variable type (int) : (no int before checkPrime, needs to be “void checkPrime”)
+Line 21 - cannot have the semicolon at the end of the function definition 
+Line 23 - the third component / increment of the for loop is written wrong. Needs the variable and then the increment instead of the increment instead of the variable. (Corrected: J = J + 1  OR  J += 1)
+Line 28 - 2nd condition of the if statement only has one equal sign, needs 2. (Correced: J == numToCheck - 1)
+Line 28 - Needs parentheses to separate the conditions for the AND operator {Corrected: ((numToCheck % J != 0) && (J == numToCheck - 1)) }
+Line 31 - forward slash at the end cannot be there alone. Either needs to be deleted or needs to be “\n” for a new line
+Line 32 - needs a curly bracket to end the if loop 

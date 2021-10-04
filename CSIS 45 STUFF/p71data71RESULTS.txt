@@ -1,0 +1,3 @@
+The smallest number is: 2
+The largest number is: 1104
+The number of evens is: 10
